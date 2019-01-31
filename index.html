@@ -16,7 +16,9 @@
 <!--- Start navbar Section -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dard fixed-top">
 	<a class="navbar-brand" href="#">
-		<img src = "img/logo.png">
+		<!-- Code Review - David: An img element must have an alt attribute, except under certain conditions.  -->
+		<!-- Code Review - David: No logo.png exists  -->
+		<img src = "img/LOGO.png" alt="">
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 	data-target="#navbarResponse">
@@ -167,7 +169,8 @@
 			<div class ="col-md-6 hoppy1">
 				<div class= "row">
 					<div class="col-md-4">
-						<img src = "img/tennis.png">
+						<!-- Code Review - David: An img element must have an alt attribute, except under certain conditions.  -->
+						<img src = "img/tennis.png"  alt="">
 					</div>
 					<div class="col-md-8">
 						<blockquote>
@@ -179,7 +182,8 @@
 			<div class ="col-md-6 hoppy2">
 					<div class= "row">
 						<div class="col-md-4">
-							<img src = "img/toothless.png">
+							<!-- Code Review - David: An img element must have an alt attribute, except under certain conditions.  -->
+							<img src = "img/toothless.png"  alt="">
 						</div>
 						<div class="col-md-8">
 							<blockquote>
@@ -188,6 +192,8 @@
 						</div>
 					</div>
 			</div>
+		<!-- Code Review - David: Unclosed element div.row. -->
+		</div>
 	</div>
 </div>
 <!--- End Hoppy Section -->
@@ -198,10 +204,10 @@
 		<div class="col-md-5 text-center">
 		
 			<p>I'm activily searching for the summer intern position in the field of software development, please feel free to contact me!</p>
-		
-		<a href="https://twitter.com/wmynuaa" target="_break"><i class="fab fa-twitter-square"></i></a>
-		<a href="https://www.linkedin.com/in/mengyun0828/" target="_break"><i class="fab fa-linkedin"></i></a>
-		<a href="http://www.github.com/mylvcs" target="_break"><i class="fab fa-github-square"></i></a>
+		<!-- Code Review - David: Bad value _break for attribute target on element a -->
+		<a href="https://twitter.com/wmynuaa" target="break"><i class="fab fa-twitter-square"></i></a>
+		<a href="https://www.linkedin.com/in/mengyun0828/" target="break"><i class="fab fa-linkedin"></i></a>
+		<a href="http://www.github.com/mylvcs" target="break"><i class="fab fa-github-square"></i></a>
 		<a href="mailto:wang.mengyun@husky.neu.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 
 		</div>
