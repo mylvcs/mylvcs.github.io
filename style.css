@@ -44,15 +44,15 @@ body{
   text-transform: uppercase;
 }
 .caption h1{
-  font-size: 3.8 rem;
+  font-size: 3.8rem;
   font-weight: 700;
-  letter-spacing: .3 rem;
+  letter-spacing: .3rem;
   color : white;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
 }
 .caption h3{
-  font-size: 2 rem;
+  font-size: 2rem;
   color: white;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
@@ -70,7 +70,7 @@ body{
 .btn-lg{
   border-width: medium;
   border-radius: 0;
-  padding: 0.6rem, 1.3rem;
+  padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
 }
 
@@ -116,7 +116,7 @@ footer{
 
  footer svg.svg-inline--fa{
    font-size: 1.6rem;
-   margin:1.2rem, .5rem 0 0;
+   margin:1.2rem .5rem 0 0;
  }
  footer svg.svg-inline--fa:hover{
     color: #1ebba3!important;
