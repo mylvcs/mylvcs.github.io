@@ -20,8 +20,8 @@ You can open the website by click: https://mylvcs.github.io .
 Mengyun Wang
 
 ## Presentation
-Presentation link: ()
-Slides for presentation: ()
+Presentation link: (https://www.youtube.com/watch?v=HcZulkOZLSI)
+Slides for presentation: (https://docs.google.com/presentation/d/1keEyFLF9Hch80aCffqyy-YBAT5PQBRJqWD2HsmQ5nmU)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
